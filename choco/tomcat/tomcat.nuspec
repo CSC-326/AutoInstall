@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>tomcat</id>
+    <title>tomcat for itrust (Install)</title>
+    <version>8.0.30</version>
+    <authors>NCSU</authors>
+    <owners>NCSU</owners>
+    <summary></summary>
+    <description> iTrust was aimed to teach various testing methods and automatic testing techniques in the curriculum of the course. iTrust is a medical application that provides patients with a means to keep up with their medical history and records as well as communicate with their doctors, including selecting which doctors to be their primary caregiver, seeing and sharing satisfaction results, and other tasks. iTrust is also an interface for medical staff from various locations. iTrust allows the staff to keep track of their patients through messaging capabilities, scheduling of office visits, diagnoses, prescribing medication, ordering and viewing lab results, among other funtions. Privacy and security of patient records are ensured, as protected by the HIPAA statute.</description>
+    <projectUrl>https://github.ncsu.edu/engr-csc326-staff/iTrust-v21</projectUrl>
+    <packageSourceUrl>https://github.ncsu.edu/engr-csc326-staff/iTrust-v21</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>itrust admin SPACE_SEPARATED</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.ncsu.edu/engr-csc326-staff/iTrust-v21</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/itrust.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
