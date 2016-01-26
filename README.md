@@ -37,7 +37,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '';
 SET GLOBAL sql_mode = "";
 ```
 
-**NOTE**: This will only work if you don't have any content in: C:\ProgramData\MySQL\data -- That is, you haven't tried creating a MySQL db yet.
+**NOTE**: This will only work if you don't have any content in: C:\ProgramData\MySQL\data -- That is, you haven't tried creating a MySQL db yet. You could delete this directory, but it is not recommended (you can lose all data related to *any* DBs you have previously stored)
 
 Why we have this mess:
 * http://mysqlserverteam.com/initialize-your-mysql-5-7-instances-with-ease/
