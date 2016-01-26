@@ -4,17 +4,22 @@ Configuration management for iTrust
 
 ## choco packages
 
+Get this repo in order to get local packages inside.
+```
+git clone <THIS REPO>
+```
+
 ### Tomcat 
 
 The default tomcat 8 package is broken. I've fixed it to point to a real release.
 ```
 cd choco\tomcat\
-choco install .\tomcat.nuspec`
+choco install .\tomcat.nuspec -y 
 ```
 ### Mysql and workbench
 
 Installing workbench seems fine:
-* `choco install mysql.workbench`
+* `choco install mysql.workbench -y`  
 
 The default mysql package creates a new installation without telling your temporary/random root password.
 This version uses `initialize-insecure` instead.
@@ -22,7 +27,7 @@ This will install mysql, but without root password.
 
 ```
 cd choco\mysql\
-choco install .\mysql.nuspec
+choco install .\mysql.nuspec -y
 ```
 
 After installing, will want to login like this and set root password.
